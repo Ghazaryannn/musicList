@@ -1,0 +1,150 @@
+.track {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding: 0px 0px 0 8px;
+    margin-top: 20px;
+}
+.play{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title{
+    width: 250px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 15px;
+}  
+.artists{
+    width: 250px;
+    letter-spacing: 1px;
+    color: #9e9e9e;
+    font-size: 15px;
+    text-align: center;
+}
+.id{
+    width: 90px;
+    text-align: center;
+}
+.time{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9e9e9e;
+}
+.download{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    margin-right: 15px;
+}
+.credits {
+    flex: 1;
+    display: flex;
+    //flex-direction: row;
+   //justify-content: space-between;
+}
+.preview {
+    width: 30px;
+    height: 30  px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.action{
+    width: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.playing {
+    color: #7c8c63;
+}
+.mobile_menu{
+    display: none;
+}
+.mobile_select{
+    display: none;
+}
+
+@media screen and (max-width:780px){
+    .action{
+        display: none;
+    }
+    .download{
+        display: none;
+    }
+    .id{
+        display: none;
+    }
+    .title b{
+        font-size: 12px;
+    }
+    .track{
+        margin-top: 25px;
+    }
+    .title{
+        width: 140px;
+        position: relative;
+
+    }
+    .artists{
+        width: 140px;
+        font-size: 12px;
+    }
+    .time{
+        width: 130px;
+        gap: 5px;
+    }
+    .preview{
+        width: 20px;
+    }
+    .mobile_menu{
+        display: block;
+        z-index: 9999;
+    }
+    .mobile_select{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        height: 45px;
+        border-radius: 50px;
+        width: 70%;
+        left: 90px;
+        position: fixed;
+        background-color: #fff;
+        padding: 10px;
+        transform: translateX(120%);
+    }
+    .active{
+        animation: openMenu .5s normal forwards ease-in-out;
+        transform: translateX(0%);
+    }
+
+    @keyframes openMenu {
+        0%   {
+          transform: translateX(120%)
+        }
+        100% {
+          transform: translateX(0%);
+        }
+    }
+}
+@media screen and (max-width: 900px) {
+    .download{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .download{
+        width: 258px;
+    }
+}

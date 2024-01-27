@@ -1,0 +1,86 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    margin-top: 20px;
+}
+.title .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.title .empty{
+    width: 90px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.title .animation{
+    width: 90px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.title .id{
+    width: 90px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title .action{
+    width: 120px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+.title .download{
+    width: 250px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title .time{
+    width: 90px;
+    height: 40px;
+    background-color: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:780px){
+    .title .action{
+        display: none;
+    }
+    .title .download{
+       display: none;
+    }
+    .title .id{
+        display: none;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .title .info{
+        width: 140px;
+    }
+    .title .time{
+        width: 130px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .title .action{
+        width: 150px;
+    }
+}

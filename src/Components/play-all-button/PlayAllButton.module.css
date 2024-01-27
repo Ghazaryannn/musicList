@@ -1,0 +1,13 @@
+.allPlay{
+    display: flex;
+}
+.allPlay button{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,110 @@
+.wrapper{
+    width: 90px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    gap: 2px;
+}
+.line1{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    height: 30px;
+    animation: animate1 1.9s linear infinite;
+    border-radius: 10px;
+}
+.line2{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    height: 30px;
+    animation: animate2 2.1s linear infinite;
+    border-radius: 10px;
+}
+.line3{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    height: 30px;
+    border-radius: 10px;
+    animation: animate3 2.3s linear infinite;
+}
+.line4{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    border-radius: 10px;
+    height: 30px;
+    animation: animate4 2.3s linear infinite;
+}
+.line5{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    height: 30px;
+    border-radius: 10px;
+    animation: animate5 1.7s linear infinite;
+}
+.line6{
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    border-radius: 10px;
+    height: 30px;
+    animation: animate6 2.0s linear infinite;
+}
+.line7{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 5px;
+    height: 30px;
+    animation: animate7 1.8s linear infinite;
+}
+
+@keyframes animate1 {
+    50%{
+        background-color: #7c8c63;
+        height: 35px;
+    }
+}
+@keyframes animate2 {
+    50%{
+        background-color: #7c8c63;
+        height: 8px;
+    }
+}
+@keyframes animate3 {
+    50%{
+        background-color: #7c8c63;
+        height: 35px;
+    }
+}
+@keyframes animate4 {
+    50%{
+        background-color: #7c8c63;
+        height: 8px;
+    }
+}
+@keyframes animate5 {
+    50%{
+        background-color: #7c8c63;
+        height: 35px;
+    }
+}
+@keyframes animate6 {
+    50%{
+        background-color: #7c8c63;
+        height: 8px;
+    }
+}
+@keyframes animate7 {
+    50%{
+        background-color: #7c8c63;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:780px){
+    .wrapper{
+        width: 60px;
+    }
+}
+
+
+

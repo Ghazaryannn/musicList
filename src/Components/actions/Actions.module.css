@@ -1,0 +1,22 @@
+.action ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.action ul li{
+    list-style: none;
+}
+@media screen and (max-width:780px){
+    .down{
+        display: none;
+    }
+    .action ul li{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .action ul{
+        gap: 3px;
+    }
+}

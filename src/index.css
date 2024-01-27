@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #eee;
+    font-family: "Nunito", sans-serif;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-space-compact-block {
+    display: flex;
+    width: 44%;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-input-lg {
+    padding: 3px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 8px;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-btn-default {
+    background: #ffffff;
+    border-color: #d9d9d9;
+    background-color: #eee;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #7c8c63;
+    border-color: #7c8c63;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-input-outlined:hover {
+    border-color: #7c8c63;
+    background-color: #ffffff;
+}
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-input-outlined:focus {
+    border-color: #7c8c63;
+    background-color: #ffffff;
+}
+
+:where(.css-dev-only-do-not-override-1qhpsh8).ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background-color: #7c8c63;
+}

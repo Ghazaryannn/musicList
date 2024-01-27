@@ -1,0 +1,22 @@
+.searchSongs{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.searchSongs button{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:780px){
+    .searchSongs{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

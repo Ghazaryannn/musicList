@@ -1,0 +1,57 @@
+.upload{
+    position: relative;
+}
+.btn{
+    background-color:  #c3d4af;
+}
+.down{
+    width: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #c3d4af;
+    position: absolute;
+    right: -30px;
+    border-radius: 0 5px 5px  0px;
+    top: 0px;
+    cursor: pointer;
+    border: none;
+    color: #eee;
+}
+.down_content{
+    position: absolute;
+    background-color: #eee;
+    color: #000;
+    z-index: 999;
+    width: 70px;
+    border-radius: 5px;
+    padding: 3px;
+    right: -60px;
+    display: none;
+    transition: all .3s;
+}
+.down_content p{
+    cursor: pointer;
+}
+.upload .dropdown:hover .down_content{
+    display: block;
+}
+
+@media screen and (max-width:780px){
+    .down{
+        left: 80px;
+        height: 30px;
+    }
+    .down_content{
+        left: 90px;
+    }
+    .btn{
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
